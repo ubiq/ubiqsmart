@@ -19,7 +19,7 @@
     "core-js": "^3.11.2",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.26.0",
-    "prism-themes": "^1.6.0"
+    "prism-themes": "^1.7.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.1",
