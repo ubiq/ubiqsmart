@@ -25,11 +25,11 @@
     "graphql-tag": "^2.12.4",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.26.0",
-    "prism-themes": "^1.6.0",
+    "prism-themes": "^1.7.0",
     "vue-marquee-text-component": "^1.2.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
     "@nuxt/test-utils": "^0.2.2",
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
