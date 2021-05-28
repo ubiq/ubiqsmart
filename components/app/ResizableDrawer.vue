@@ -11,6 +11,9 @@
     flat
   >
     <slot></slot>
+    <template #append>
+      <slot name="append"></slot>
+    </template>
   </v-navigation-drawer>
 </template>
 

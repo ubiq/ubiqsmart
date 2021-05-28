@@ -41,59 +41,114 @@
     </v-app-bar>
     <resizable-drawer id="navigation" side="left">
       <v-toolbar>
-        <v-list dense class="pa-0">
-          <v-list-item>
-            <v-list-item-avatar>
-              <img :src="params.logo[theme]" height="24" width="24" />
-            </v-list-item-avatar>
-            <v-list-item-content class="text-right">
-              <h1 style="color: var(--v-primary-base)">{{ $t('title') }}</h1>
-              <v-list-item-subtitle style="color: var(--v-secondary-base)">
-                {{ $t('subtitle') }}
-              </v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
+        <v-spacer />
+        <img :src="params['logo-full'][theme]" height="36" />
+        <v-spacer />
       </v-toolbar>
       <v-list dense>
+        <v-subheader class="ml-4">{{ $t('menu.getStarted') }}</v-subheader>
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
-          link
+          nuxt
+          color="primary"
           :to="{ path: item.path }"
         >
-          <v-list-item-icon>
+          <v-list-item-avatar>
             <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-icon>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
         </v-list-item>
-
-        <v-list-group
-          v-for="(group, index) in groups"
-          :key="index"
-          :prepend-icon="group.icon"
+        <v-subheader class="ml-4">More</v-subheader>
+        <v-list-item link href="https://blog.ubiqsmart.com" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-post</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Blog</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link href="https://odin.ubiqsmart.com" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-book-open-variant</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>GitBook</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-subheader class="ml-4">{{ $t('menu.explore') }}</v-subheader>
+        <v-list-item link href="https://stats.ubiqscan.io" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-gauge</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Network stats</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link href="https://ubiqscan.io" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-cube-scan</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Block Explorer</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          href="https://shinobi-info.ubiq.ninja"
+          target="_blank"
         >
-          <template #activator>
-            <v-list-item-title>{{ group.title }}</v-list-item-title>
-          </template>
-          <template v-if="group.items">
-            <v-list-item
-              v-for="(item, i) in group.items"
-              :key="i"
-              link
-              :to="{ path: item.path }"
-            >
-              <v-list-item-icon>
-                <v-icon>{{ item.icon }}</v-icon>
-              </v-list-item-icon>
-              <v-list-item-title v-text="item.title"></v-list-item-title>
-            </v-list-item>
-          </template>
-        </v-list-group>
+          <v-list-item-avatar>
+            <v-icon>mdi-ninja</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Shinobi</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
-      <template #append> </template>
     </resizable-drawer>
     <v-main>
+      <v-app-bar short flat class="ticker-bar">
+        <v-col
+          cols="1"
+          style="min-width: 100px; max-width: 100%"
+          class="flex-grow-1 flex-shrink-0 pt-0"
+        >
+          <marquee-text
+            :key="shinobi.lastSync.tokens"
+            :duration="60"
+            :repeat="5"
+          >
+            <v-row no-gutters>
+              <v-sheet
+                v-for="(token, index) in shinobi.tokens"
+                :key="index"
+                class="ticker"
+              >
+                {{ token.symbol }} - ${{ token.price.toFixed(4) }}
+              </v-sheet>
+            </v-row>
+          </marquee-text>
+        </v-col>
+        <v-col
+          cols="1"
+          class="flex-grow-0 flex-shrink-0 pt-0"
+          style="min-width: 200px; max-width: 200px"
+        >
+          <v-btn
+            v-if="shinobi.ubqPrice"
+            color="primary"
+            large
+            text
+            tile
+            href="https://shinobi-info.ubiq.ninja"
+            target="_blank"
+            >UBQ - ${{ shinobi.ubqPrice }}</v-btn
+          >
+        </v-col>
+      </v-app-bar>
       <v-container class="pb-12">
         <nuxt />
       </v-container>
@@ -108,20 +163,34 @@
         font-size: 12px;
         font-weight: 600;
       "
-      class="px-2"
+      class="pa-0"
     >
+      <v-tooltip left>
+        <template #activator="{ on, attrs }">
+          <v-btn
+            small
+            tile
+            text
+            class="bg-0 pa-0"
+            height="22px"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon small class="mx-1">mdi-cube-outline</v-icon>
+            <strong>{{ nf.format(status.block) }}</strong>
+          </v-btn>
+        </template>
+        <span>block height: {{ nf.format(status.block) }}</span>
+      </v-tooltip>
       <v-spacer />
-      <span style="color: #fff">
-        handcrafted by <v-icon color="#fff" dense>mdi-ninja</v-icon> using
-        <a
-          href="https://github.com/octanolabs/static"
-          style="color: #fff; text-decoration: none"
-          target="_blank"
-        >
-          octano static
-        </a>
-      </span>
-      <v-spacer />
+      <v-btn small tile text class="bg-0 pa-0" height="22px">
+        <v-icon small class="mx-1">mdi-clock</v-icon>
+        <strong>{{ status.epoch }}</strong>
+      </v-btn>
+      <v-btn small tile text class="bg-0 pa-0" height="22px">
+        <v-icon small class="mx-1">mdi-cube</v-icon>
+        <strong>{{ status.size }} GB</strong>
+      </v-btn>
     </v-footer>
     <v-btn
       v-show="fab"
@@ -142,6 +211,7 @@
 </template>
 
 <script>
+import MarqueeText from 'vue-marquee-text-component'
 import ResizableDrawer from '~/components/app/ResizableDrawer'
 import Search from '~/components/app/Search'
 import SearchMobile from '~/components/app/mobile/Search'
@@ -152,15 +222,23 @@ export default {
     ResizableDrawer,
     Search,
     SearchMobile,
+    MarqueeText,
   },
   data() {
     return {
       fab: false,
+      nf: new Intl.NumberFormat(this.$i18n.locale, {}),
     }
   },
   async fetch() {
     await this.$store.dispatch('set_mobile', window.innerWidth < 600)
+    await this.$store.dispatch('set_browser')
+    await this.$store.dispatch('dag/set_dag')
     await this.$store.dispatch('content/fetch')
+    await this.$store.dispatch('shinobi/getPriceUsd')
+    await this.$store.dispatch('shinobi/getTokens')
+    await this.$store.dispatch('shinobi/getGlobal')
+    await this.$store.dispatch('medium/getBlogPosts')
     if (!this.$store.state.mobile) {
       this.$store.dispatch('drawers/set_navigation', true)
       this.$store.dispatch('drawers/set_toc', true)
@@ -198,6 +276,12 @@ export default {
     },
     isMobile() {
       return this.$store.state.mobile
+    },
+    shinobi() {
+      return this.$store.state.shinobi
+    },
+    status() {
+      return this.$store.state.dag
     },
   },
   mounted() {

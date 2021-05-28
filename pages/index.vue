@@ -6,7 +6,6 @@
           <v-img :src="params.logo[theme]" height="250" contain class="pa-2" />
         </v-avatar>
       </div>
-      <h1 class="v-heading text-h3 text-sm-h3 mb-4">{{ $t('home.title') }}</h1>
       <p class="mx-auto" style="width: 420px; max-width: 85%">
         {{ $t('home.desc') }}
       </p>
@@ -37,6 +36,35 @@
           </v-btn>
         </span>
       </v-row>
+      <v-row no-gutters align="center" justify="center" class="px-1 mt-12">
+        <v-window v-model="onboarding" reverse continuous show-arrows-on-hover>
+          <v-window-item v-for="(slide, index) of articles" :key="index">
+            <v-card align="left" width="480px" class="mx-auto" flat tile>
+              <v-img height="200px" :src="slide.image" />
+              <v-card-title>{{ slide.title }}</v-card-title>
+              <v-card-subtitle
+                ><i>by {{ slide.creator }}</i></v-card-subtitle
+              >
+              <v-card-text>
+                {{ clip(slide['content:encodedSnippet']) }}
+              </v-card-text>
+              <v-card-actions>
+                <v-btn text @click="prev">
+                  <v-icon>mdi-chevron-left</v-icon>
+                </v-btn>
+                <v-spacer />
+                <v-btn text flat tile ripple :href="slide.link" target="_blank">
+                  Read more
+                </v-btn>
+                <v-spacer />
+                <v-btn text @click="next">
+                  <v-icon>mdi-chevron-right</v-icon>
+                </v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-window-item>
+        </v-window>
+      </v-row>
     </v-col>
   </v-row>
 </template>
@@ -44,6 +72,12 @@
 <script>
 export default {
   name: 'Home',
+  data() {
+    return {
+      onboarding: 0,
+      timer: null,
+    }
+  },
   computed: {
     params() {
       return this.$store.state.params
@@ -56,6 +90,45 @@ export default {
     },
     locale() {
       return this.$i18n.locale
+    },
+    articles() {
+      return this.$store.state.medium.articles
+    },
+  },
+  mounted() {
+    this.startTimer()
+  },
+  beforeDestroy() {
+    clearInterval(this.timer)
+  },
+  methods: {
+    clip(text) {
+      const str = text.substr(0, 290)
+      const pos = str.lastIndexOf(' ')
+      return str.substr(0, pos) + '...'
+    },
+    startTimer() {
+      this.timer = setInterval(() => {
+        if (this.onboarding < this.articles.length) {
+          this.onboarding = this.onboarding + 1
+        } else {
+          this.onboarding = 0
+        }
+      }, 6000)
+    },
+    next() {
+      this.onboarding =
+        this.onboarding + 1 === this.length ? 0 : this.onboarding + 1
+      // reset timer
+      clearInterval(this.timer)
+      this.startTimer()
+    },
+    prev() {
+      this.onboarding =
+        this.onboarding - 1 < 0 ? this.length - 1 : this.onboarding - 1
+      // reset timer
+      clearInterval(this.timer)
+      this.startTimer()
     },
   },
 }

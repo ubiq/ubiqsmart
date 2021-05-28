@@ -68,26 +68,10 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
+    liveEdit: false,
     markdown: {
       prism: {
         theme: 'prism-themes/themes/prism-material-dark.css',
-      },
-      // markdown heading auto links
-      remarkAutolinkHeadings: {
-        content: {
-          type: 'element',
-          tagName: 'span',
-          properties: {
-            className: [
-              'v-icon',
-              'mdi',
-              'mdi-link-box-variant-outline',
-              'mr-1',
-              'mb-1',
-              'header-link',
-            ],
-          },
-        },
       },
     },
   },

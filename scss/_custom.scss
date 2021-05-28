@@ -158,6 +158,7 @@ table {
 .nuxt-content>h5>a>span.header-link,
 .nuxt-content>h6>a>span.header-link {
   color: var(--v-staticborders-base) !important;
+  margin-left: -36px;
 }
 
 .nuxt-content>h1>a>span.header-link:hover,
@@ -179,4 +180,23 @@ table {
 // div.theme--dark>div.v-card__text>div.nuxt-content-container>div.nuxt-content>table>tbody>tr:nth-child(odd) {
 .nuxt-content>table>tbody>tr:nth-child(odd) {
   background:var(--v-zebrastripes-base) !important; // 1e1e1e
+}
+
+// tickers
+.ticker {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255,255,255,0.5);
+  background: rgba(0,0,0,0) !important;
+}
+
+.ticker-bar {
+  background: rgba(0,0,0,0) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  height: 42px !important;
+}
+
+.v-card__title {
+  word-wrap: normal !important;
+  word-break: normal !important;
 }

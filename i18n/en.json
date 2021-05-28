@@ -1,11 +1,15 @@
 {
-  "title": "static",
-  "subtitle": "Git-based CMS",
+  "title": "ubiq",
+  "subtitle": "blockchain",
   "home": {
-    "title": "Git-based CMS",
-    "desc": "Static is a Git-based CMS for bootstrapping landing sites for open-source projects. By utilizing Vue.js, Nuxt.js and Vuetify, all of the heavy lifting is done for you - no coding skills required. Just focus on showing off your project and all that it has to offer.",
+    "title": "Welcome to Ubiq",
+    "desc": "Ubiq is a community-run Proof-of-Work blockchain and smart contract platform powering decentralized applications, tokens, NFTs and much more.",
     "github": "Github",
     "getStarted": "Get Started"
+  },
+  "menu": {
+    "getStarted": "Get Started",
+    "explore": "Explore"
   },
   "toc": "Page contents",
   "slug": {
@@ -15,5 +19,60 @@
     "title": "Search",
     "noResults": "No search results..."
   },
-  "helpTranslate": "Help Translate"
+  "helpTranslate": "Help Translate",
+  "wallets": {
+    "sparrow": {
+      "title": "Sparrow",
+      "desc": "Sparrow equips you with a key vault, secure login and token wallet — everything you need to manage your digital assets. Sparrow is the recommended hot wallet for dapp interactions. Sparrow provides the simplest yet most secure way to connect to blockchain-based applications. You can also use Sparrow to interact with hardware wallets such as Trezor and Ledger.",
+      "button": "Get Sparrow"
+    },
+    "pyrus": {
+      "title": "Pyrus",
+      "desc": "Pyrus is a browser based, client-side Ubiq wallet. Generate wallets completely client side, easily send Ubiq and any ERC-20 Standard Token (e.g GEO, ESCH), generate and send offline transactions, ensuring your private keys never touch an internet-connected device.",
+      "button": "Go to Pyrus"
+    },
+    "trezor": {
+      "title": "Trezor",
+      "desc": "Trezor is hardware wallet device compatible with Ubiq. It can interface with both Pyrus and Sparrow to securely manage balances and transfers, as well as interactions with smart contracts/dapps such as shinobi and enmaku.",
+      "button": "Get Trezor"
+    },
+    "ledger": {
+      "title": "Ledger",
+      "desc": "The Ledger Nano S is a highly secure hardware wallet solution that is compatible with Pyrus, MEW and Sparrow. Private keys remain encrypted on a USB device with robust security features, making it one of the safest ways to store your funds.",
+      "button": "Get Ledger"
+    },
+    "gubiq": {
+      "title": "Gubiq",
+      "desc": "Gubiq (go-ubiq) is the core client and backbone of the Ubiq network. Used by developers, services, nodes and running behind the scenes for both Pyrus & Sparrow users.",
+      "button": "Get Gubiq"
+    },
+    "fusion": {
+      "title": "Fusion",
+      "desc": "Bringing together all of your accounts, assets and application interfaces, the Fusion Wallet combines all Ubiq blockchain functionality into one secure and powerful interface. Providing a full node with all of the tools to write and deploy your own smart contracts and tokens.",
+      "button": "Get Fusion"
+    }
+  },
+  "sparrow": {
+    "title": "Install Sparrow",
+    "conflict": "Do not install Sparrow in the same browser as MetaMask, a conflict will occur.",
+    "get": "Get Sparrow",
+    "for": "for",
+    "installed": "Sparrow Installed",
+    "available": "also available for:",
+    "box1title": "Send tokens globally",
+    "box2title": "Explore blockchain apps",
+    "box1text": "key sparrow equips you with a vault, secure login, and token wallet - everything you need to manage your digital assets.",
+    "box2text": "Sparrow provides the simplest yet most secure way to connect to blockchain-based applications. Ensuring you are always in control when interacting on the new decentralized web."
+  },
+  "dagGrowth": {
+    "size": "Size of DAG (GB)",
+    "years": "Years"
+  },
+  "markets": {
+    "goTo": "Go to",
+    "bittrex": "The first exchange to list UBQ. Based in the United States, Bittrex is one of the leading crypto services when it comes to regulatory compliance, security and international support. UBQ is available on both Bittrex US and Bittrex Global, with BTC and USDT markets for trading.",
+    "bitz": "BitZ, established in Hong Kong in 2016, is a well-known digital asset trading platform of the world, which provides professional digital asset and OTC trading. UBQ is available via a USDT market.",
+    "dove": "Dove Wallet strives to enable users to learn about and easily access the digital asset market in a simple, secure, and profitable way. Dove Wallet has a wide number of pairings for UBQ available, such as: BTC, ETH, GBP, EUR, USDC, USDT, TUSD, PAX, NGN and KRW.",
+    "shinobi": "Shinobi is a protocol for creating liquidity and trading ERC-20 tokens on Ubiq. It eliminates trusted intermediaries and unnecessary forms of rent extraction, allowing for fast, efficient trading. Where it makes tradeoffs - decentralization, censorship resistance and security are prioritized. Shinobi is open-source software, based on uniqswapV2, licensed under GPL."
+  }
 }

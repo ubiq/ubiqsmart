@@ -22,13 +22,17 @@
       <v-alert :value="fallback" type="error" text outlined dismissible>
         {{ $t('slug.fallback', [locale.name, defaultLocale.name]) }}
       </v-alert>
-      <v-card v-if="!!article" key="card" flat tile class="bg-0">
+      <v-card
+        v-if="!!article"
+        key="card"
+        flat
+        tile
+        class="bg-0 ml-auto mr-auto"
+        style="max-width: 800px"
+      >
         <template v-if="!isMobile">
           <v-card-title id="top-header">
-            <h1>
-              <v-icon v-if="!!article.icon" large>{{ article.icon }}</v-icon>
-              {{ article.title }}
-            </h1>
+            <h1>{{ article.title }}</h1>
             <v-spacer />
             <v-btn
               icon
@@ -95,13 +99,28 @@
 </template>
 
 <script>
+/* eslint-disable vue/no-unused-components */
 import Prism from '~/plugins/prism'
 import ResizableDrawer from '~/components/app/ResizableDrawer'
+import WalletCard from '~/components/Wallet'
+import MarketCard from '~/components/Market'
+import PoolTable from '~/components/Pools'
+import InflationTable from '~/components/Inflation'
+import InflationChart from '~/components/InflationRate'
+import DagGrowthChart from '~/components/DagGrowth'
+import DagSize from '~/components/DagSize'
 
 export default {
   name: 'Slug',
   components: {
     ResizableDrawer,
+    WalletCard,
+    MarketCard,
+    PoolTable,
+    InflationTable,
+    InflationChart,
+    DagGrowthChart,
+    DagSize,
   },
   async asyncData({ $content, params, error, i18n }) {
     const fetchArticle = async function (path) {

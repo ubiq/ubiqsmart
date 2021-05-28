@@ -1,18 +1,22 @@
 {
-  "favicon": "favicon.png",
+  "favicon": "favicon.ico",
   "logo": {
-    "dark": "octano-dark.svg",
-    "light": "octano-light.svg"
+    "dark": "logo.svg",
+    "light": "logo-alt.svg"
   },
-  "url": "https://octanolabs.github.io/static",
-  "github": "https://github.com/octanolabs/static",
+  "logo-full": {
+    "dark": "logo-full.svg",
+    "light": "logo-full-alt.svg"
+  },
+  "url": "https://ubiqsmart.com",
+  "github": "https://github.com/ubiq/ubiqsmart-static",
   "theme": {
     "dark": true,
     "themes": {
       "dark": {
-        "primary": "#6fceb7",
-        "secondary": "#e76754",
-        "accent": "#ff00ff",
+        "primary": "#00ea90",
+        "secondary": "#ea005a",
+        "accent": "#ea9000",
         "error": "#FF5252",
         "info": "#2196F3",
         "success": "#4CAF50",
@@ -22,8 +26,8 @@
       },
       "light": {
         "primary": "#00ccff",
-        "secondary": "#ff00cb",
-        "accent": "#f30",
+        "secondary": "#f30",
+        "accent": "#ff00cc",
         "error": "#FF5252",
         "info": "#2196F3",
         "success": "#4CAF50",
@@ -58,6 +62,6 @@
     ]
   },
   "router": {
-    "base": "/static/"
+    "base": "/"
   }
 }
