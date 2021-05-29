@@ -165,32 +165,106 @@
       "
       class="pa-0"
     >
-      <v-tooltip left>
+      <v-btn
+        class="bg-0 py-0 px-2"
+        height="22px"
+        small
+        tile
+        depressed
+        ripple
+        href="https://github.com/ubiq/go-ubiq/releases"
+        target="_blank"
+        style="text-transform: none"
+        v-bind="attrs"
+        v-on="on"
+      >
+        <v-icon small class="mx-1">mdi-source-repository</v-icon>
+        <strong>v5.0.0 - Taurus</strong>
+      </v-btn>
+      <v-spacer />
+      <v-tooltip top>
         <template #activator="{ on, attrs }">
           <v-btn
             small
             tile
             text
-            class="bg-0 pa-0"
+            class="bg-0 py-0 px-2"
             height="22px"
             v-bind="attrs"
             v-on="on"
           >
-            <v-icon small class="mx-1">mdi-cube-outline</v-icon>
+            <v-icon small class="mx-1">mdi-cube-scan</v-icon>
             <strong>{{ nf.format(status.block) }}</strong>
           </v-btn>
         </template>
-        <span>block height: {{ nf.format(status.block) }}</span>
+        <v-list-item>
+          <v-list-item-avatar>
+            <v-icon large>mdi-cube-scan</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title
+              >Block height - {{ nf.format(status.block) }}</v-list-item-title
+            >
+            <v-list-item-subtitle
+              >Current height of the ubiq blockchain</v-list-item-subtitle
+            >
+          </v-list-item-content>
+        </v-list-item>
       </v-tooltip>
-      <v-spacer />
-      <v-btn small tile text class="bg-0 pa-0" height="22px">
-        <v-icon small class="mx-1">mdi-clock</v-icon>
-        <strong>{{ status.epoch }}</strong>
-      </v-btn>
-      <v-btn small tile text class="bg-0 pa-0" height="22px">
-        <v-icon small class="mx-1">mdi-cube</v-icon>
-        <strong>{{ status.size }} GB</strong>
-      </v-btn>
+      <v-tooltip v-if="!isMobile" top>
+        <template #activator="{ on, attrs }">
+          <v-btn
+            small
+            tile
+            text
+            class="bg-0 py-0 px-2"
+            height="22px"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon small class="mx-1">mdi-web-clock</v-icon>
+            <strong>{{ status.epoch }}</strong>
+          </v-btn>
+        </template>
+        <v-list-item>
+          <v-list-item-avatar>
+            <v-icon large>mdi-web-clock</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>Epoch - {{ status.epoch }}</v-list-item-title>
+            <v-list-item-subtitle>Current epoch</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+      </v-tooltip>
+      <v-tooltip v-if="!isMobile" top>
+        <template #activator="{ on, attrs }">
+          <v-btn
+            small
+            tile
+            text
+            class="bg-0 py-0 px-2"
+            height="22px"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon small class="mx-1">mdi-memory</v-icon>
+            <strong>{{ status.size }} GB</strong>
+          </v-btn>
+        </template>
+        <v-list-item>
+          <v-list-item-avatar>
+            <v-icon large>mdi-memory</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title
+              >DAG size: {{ status.size }} GB</v-list-item-title
+            >
+            <v-list-item-subtitle
+              >Memory required for mining</v-list-item-subtitle
+            >
+          </v-list-item-content>
+        </v-list-item>
+      </v-tooltip>
     </v-footer>
     <v-btn
       v-show="fab"
