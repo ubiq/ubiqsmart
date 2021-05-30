@@ -14,7 +14,7 @@
           <v-btn
             color="primary"
             nuxt
-            :to="'/' + locale + '/introduction'"
+            :to="'/' + locale + '/what-is-ubiq'"
             x-large
             min-width="200px"
             class="mb-2"
