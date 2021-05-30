@@ -80,6 +80,22 @@
             <v-list-item-title>{{ $t('menu.gitbook') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item link href="https://twitter.com/ubiqsmart" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-twitter</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('menu.twitter') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link href="https://discord.gg/ubiq" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-discord</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('menu.discord') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-subheader class="ml-4">{{ $t('menu.explore') }}</v-subheader>
         <v-list-item link href="https://stats.ubiqscan.io" target="_blank">
           <v-list-item-avatar>
