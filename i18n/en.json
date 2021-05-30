@@ -21,34 +21,19 @@
   },
   "helpTranslate": "Help Translate",
   "wallets": {
-    "sparrow": {
-      "title": "Sparrow",
-      "desc": "Sparrow equips you with a key vault, secure login and token wallet — everything you need to manage your digital assets. Sparrow is the recommended hot wallet for dapp interactions. Sparrow provides the simplest yet most secure way to connect to blockchain-based applications. You can also use Sparrow to interact with hardware wallets such as Trezor and Ledger.",
-      "button": "Get Sparrow"
-    },
     "pyrus": {
-      "title": "Pyrus",
-      "desc": "Pyrus is a browser based, client-side Ubiq wallet. Generate wallets completely client side, easily send Ubiq and any ERC-20 Standard Token (e.g GEO, ESCH), generate and send offline transactions, ensuring your private keys never touch an internet-connected device.",
       "button": "Go to Pyrus"
     },
     "trezor": {
-      "title": "Trezor",
-      "desc": "Trezor is hardware wallet device compatible with Ubiq. It can interface with both Pyrus and Sparrow to securely manage balances and transfers, as well as interactions with smart contracts/dapps such as shinobi and enmaku.",
       "button": "Get Trezor"
     },
     "ledger": {
-      "title": "Ledger",
-      "desc": "The Ledger Nano S is a highly secure hardware wallet solution that is compatible with Pyrus, MEW and Sparrow. Private keys remain encrypted on a USB device with robust security features, making it one of the safest ways to store your funds.",
       "button": "Get Ledger"
     },
     "gubiq": {
-      "title": "Gubiq",
-      "desc": "Gubiq (go-ubiq) is the core client and backbone of the Ubiq network. Used by developers, services, nodes and running behind the scenes for both Pyrus & Sparrow users.",
       "button": "Get Gubiq"
     },
     "fusion": {
-      "title": "Fusion",
-      "desc": "Bringing together all of your accounts, assets and application interfaces, the Fusion Wallet combines all Ubiq blockchain functionality into one secure and powerful interface. Providing a full node with all of the tools to write and deploy your own smart contracts and tokens.",
       "button": "Get Fusion"
     }
   },
