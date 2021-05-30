@@ -36,7 +36,13 @@
           </v-btn>
         </span>
       </v-row>
-      <v-row no-gutters align="center" justify="center" class="px-1 mt-12">
+      <v-row
+        v-if="!!articles"
+        no-gutters
+        align="center"
+        justify="center"
+        class="px-1 mt-12"
+      >
         <v-window v-model="onboarding" reverse continuous show-arrows-on-hover>
           <v-window-item v-for="(slide, index) of articles" :key="index">
             <v-card
@@ -60,7 +66,7 @@
                   <v-icon>mdi-chevron-left</v-icon>
                 </v-btn>
                 <v-spacer />
-                <v-btn text flat tile ripple :href="slide.link" target="_blank">
+                <v-btn text tile ripple :href="slide.link" target="_blank">
                   {{ $t('home.readMore') }}
                 </v-btn>
                 <v-spacer />
@@ -99,7 +105,7 @@ export default {
       return this.$i18n.locale
     },
     articles() {
-      return this.$store.state.medium.articles
+      return this.$store.state.medium.articles.data
     },
   },
   mounted() {
@@ -110,9 +116,11 @@ export default {
   },
   methods: {
     clip(text) {
-      const str = text.substr(0, 290)
-      const pos = str.lastIndexOf(' ')
-      return str.substr(0, pos) + '...'
+      if (text) {
+        const str = text.substr(0, 290)
+        const pos = str.lastIndexOf(' ')
+        return str.substr(0, pos) + '...'
+      }
     },
     startTimer() {
       this.timer = setInterval(() => {
