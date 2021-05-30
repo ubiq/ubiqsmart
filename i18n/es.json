@@ -1,19 +1,72 @@
 {
-  "title": "static",
-  "subtitle": "CMS basado en Git",
+  "title": "ubiq",
+  "helpTranslate": "Ayuda a traducir",
+  "goTo": "Ir a {0}",
+  "get": "Obtener {0}",
   "home": {
-    "title": "CMS basado en Git",
-    "desc": "Static es un CMS basado en Git para iniciar sitios de aterrizaje para proyectos de código abierto. Al utilizar Vue.js, Nuxt.js y Vuetify, todo el trabajo pesado está hecho por usted, no se requieren habilidades de codificación. Solo concéntrese en mostrar su proyecto y todo lo que tiene para ofrecer.",
+    "title": "Bienvenido a ubiq",
+    "desc": "Ubiq es una cadena de bloques de prueba de trabajo administrada por la comunidad y una plataforma de contrato inteligente que impulsa aplicaciones descentralizadas, tokens, NFT y mucho más.",
     "github": "Github",
-    "getStarted": "Empezar"
+    "getStarted": "Empezar",
+    "readMore": "Lee mas"
   },
-  "toc": "Contenido",
+  "menu": {
+    "getStarted": "Empezar",
+    "more": "Más",
+    "explore": "Explorar",
+    "blog": "Blog",
+    "gitbook": "GitBook",
+    "stats": "Estadísticas de red",
+    "explorer": "Explorador de bloques",
+    "shinobi": "Shinobi"
+  },
+  "footer": {
+    "height": {
+      "title": "Altura del bloque: {0}",
+      "subtitle": "Altura actual de la cadena de bloques ubiq"
+    },
+    "epoch": {
+      "title": "Época: {0} GB",
+      "subtitle": "Época actual"
+    },
+    "dag": {
+      "size": "{0} GB",
+      "title": "Tamaño de DAG: {0} GB",
+      "subtitle": "Se requiere memoria de GPU para la minería"
+    }
+  },
+  "toc": "Contenido de la página",
   "slug": {
     "fallback": "No hay {0} versión disponible. Volviendo a {1}."
   },
   "search": {
     "title": "Buscar",
-    "noResults": "No hay resultados de búsqueda..."
+    "noResults": "No hay resultados de búsqueda ..."
   },
-  "helpTranslate": "Ayuda a traducir"
+  "mining": {
+    "size": "Tamaño de DAG (GB)",
+    "years": "Años",
+    "height": "Altura del bloque",
+    "epoch": "Época",
+    "sizeShort": "Tamaño DAG",
+    "gb": "GB"
+  },
+  "monetaryPolicy": {
+    "year": "Año",
+    "inflation": "Inflación",
+    "inflationRate": "Tasa de inflación",
+    "blockReward": "Recompensa de bloque"
+  },
+  "sparrow": {
+    "title": "Instalar Sparrow",
+    "conflict": "No instale Sparrow en el mismo navegador que MetaMask, se producirá un conflicto.",
+    "get": "Obtener Sparrow",
+    "for": "por",
+    "installed": "Sparrow Instalado",
+    "available": "también disponible para:",
+    "box1title": "Envía tokens a nivel mundial",
+    "box2title": "Explore las aplicaciones de blockchain",
+    "box1text": "Sparrow lo equipa con una bóveda, un inicio de sesión seguro y una billetera de tokens: todo lo que necesita para administrar sus activos digitales.",
+    "box2text": "Sparrow provides the simplest yet most secure way to connect to blockchain-based applications. Ensuring you are always in control when interacting on the new decentralized web."
+  }
 }
