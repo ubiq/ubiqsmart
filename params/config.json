@@ -9,7 +9,7 @@
     "light": "logo-full-alt.svg"
   },
   "url": "https://ubiqsmart.com",
-  "github": "https://github.com/ubiq/ubiqsmart-static",
+  "github": "https://github.com/ubiq/ubiqsmart",
   "theme": {
     "dark": true,
     "themes": {
