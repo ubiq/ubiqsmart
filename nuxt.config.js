@@ -103,15 +103,4 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
-  // hooks
-  hooks: {
-    'content:file:beforeParse': (file) => {
-      if (file.extension !== '.md') return
-      let dir = config.github.split('/')
-      dir = dir[dir.length - 1]
-      file.data = file.data.replace(/STATIC_GITHUB/g, config.github + '.git')
-      file.data = file.data.replace(/STATIC_DIR/g, dir)
-    },
-  },
 }
