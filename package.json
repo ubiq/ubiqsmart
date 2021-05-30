@@ -31,7 +31,7 @@
     "vue-marquee-text-component": "^1.2.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-env": "^7.14.2",
     "@nuxt/test-utils": "^0.2.2",
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
@@ -48,7 +48,7 @@
     "jest": "^26.6.3",
     "jsonfile": "^6.1.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "rss-parser": "^3.12.0",
     "vue-jest": "^3.0.4"
   }
