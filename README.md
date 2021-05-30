@@ -38,7 +38,7 @@ b) rss works for reads, but does not have CORS enabled.
 The workaround for now. 
 
 1) Publish new post on medium.
-2) run `node ./updateMediumJson.js`
+2) run `yarn update-blog`
 
 This will pull info via rss (serverside using node [no CORS]) and save the contents to ./assets/medium.json
 
