@@ -40,24 +40,24 @@ export default {
             {
               ticks: {
                 min: 0,
-                fontColor: '#ffffff',
+                fontColor: this.$vuetify.theme.currentTheme.fontColor,
               },
               scaleLabel: {
                 display: true,
                 labelString: this.$t('mining.size'),
-                fontColor: '#ffffff',
+                fontColor: this.$vuetify.theme.currentTheme.fontColor,
               },
             },
           ],
           xAxes: [
             {
               ticks: {
-                fontColor: '#ffffff',
+                fontColor: this.$vuetify.theme.currentTheme.fontColor,
               },
               scaleLabel: {
                 display: true,
                 labelString: this.$t('mining.years'),
-                fontColor: '#ffffff',
+                fontColor: this.$vuetify.theme.currentTheme.fontColor,
               },
             },
           ],
@@ -65,7 +65,7 @@ export default {
         legend: {
           display: true,
           labels: {
-            fontColor: '#ffffff',
+            fontColor: this.$vuetify.theme.currentTheme.fontColor,
           },
         },
         responsive: true,
