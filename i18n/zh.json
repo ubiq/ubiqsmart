@@ -1,13 +1,42 @@
 {
-  "title": "static",
-  "subtitle": "基于Git的CMS",
+  "title": "ubiq",
+  "helpTranslate": "帮助翻译",
+  "goTo": "转到{0}",
+  "get": "得到{0}",
   "home": {
-    "title": "基于Git的CMS",
-    "desc": "静态是基于Git的CMS，用于引导开源项目的登录站点。 通过利用Vue.js，Nuxt.js和Vuetify，所有繁重的工作都可以为您完成-不需要任何编码技能。 只需专注于炫耀您的项目以及它所提供的一切。",
-    "github": "Github",
-    "getStarted": "开始使用"
+    "desc": "Ubiq是一个区块链和智能合约平台，支持完全去中心化的应用程序，令牌，NFT等。",
+    "discord": "加入Discord",
+    "getStarted": "开始使用",
+    "readMore": "阅读更多"
   },
-  "toc": "内容",
+  "menu": {
+    "getStarted": "开始使用",
+    "more": "更多的",
+    "explore": "探索",
+    "blog": "博客",
+    "gitbook": "GitBook",
+    "twitter": "Twitter",
+    "discord": "Discord",
+    "stats": "网络统计",
+    "explorer": "区块浏览器",
+    "shinobi": "Shinobi"
+  },
+  "footer": {
+    "height": {
+      "title": "块高度-{0}",
+      "subtitle": "ubiq区块链的当前高度"
+    },
+    "epoch": {
+      "title": "时代-{0} GB",
+      "subtitle": "当前时代"
+    },
+    "dag": {
+      "size": "{0} GB",
+      "title": "DAG大小-{0} GB",
+      "subtitle": "挖掘所需的GPU内存"
+    }
+  },
+  "toc": "页面内容",
   "slug": {
     "fallback": "没有可用的{0}版本。 退回到{1}。"
   },
@@ -15,5 +44,30 @@
     "title": "搜索",
     "noResults": "没有搜索结果..."
   },
-  "helpTranslate": "帮助翻译"
+  "mining": {
+    "size": "DAG大小（GB）",
+    "years": "年",
+    "height": "块高",
+    "epoch": "时代",
+    "sizeShort": "DAG大小",
+    "gb": "GB"
+  },
+  "monetaryPolicy": {
+    "year": "年",
+    "inflation": "通货膨胀",
+    "inflationRate": "通货膨胀率",
+    "blockReward": "封锁奖励"
+  },
+  "sparrow": {
+    "title": "安装麻雀",
+    "conflict": "请勿在与MetaMask相同的浏览器中安装Sparrow，否则会发生冲突。",
+    "get": "得到Sparrow",
+    "for": "为了",
+    "installed": "Sparrow已安装",
+    "available": "也可用于：",
+    "box1title": "全球发送令牌",
+    "box2title": "探索区块链应用",
+    "box1text": "Sparrow为您提供了保管库，安全登录名和令牌钱包-管理数字资产所需的一切。",
+    "box2text": "Sparrow提供了最简单但最安全的方法来连接到基于区块链的应用程序。 确保在新的分散式网络上进行交互时始终处于控制之中。"
+  }
 }

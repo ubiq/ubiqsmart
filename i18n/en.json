@@ -4,8 +4,7 @@
   "goTo": "Go to {0}",
   "get": "Get {0}",
   "home": {
-    "title": "Welcome to Ubiq",
-    "desc": "Ubiq is a community-run Proof-of-Work blockchain and smart contract platform powering decentralized applications, tokens, NFTs and much more.",
+    "desc": "Ubiq is a blockchain and smart contract platform powering fully-decentralized applications, tokens, NFTs and much more.",
     "discord": "Join Discord",
     "getStarted": "Get Started",
     "readMore": "Read more"
@@ -16,6 +15,8 @@
     "explore": "Explore",
     "blog": "Blog",
     "gitbook": "GitBook",
+    "twitter": "Twitter",
+    "discord": "Discord",
     "stats": "Network Stats",
     "explorer": "Block Explorer",
     "shinobi": "Shinobi"
@@ -66,7 +67,7 @@
     "available": "also available for:",
     "box1title": "Send tokens globally",
     "box2title": "Explore blockchain apps",
-    "box1text": "key sparrow equips you with a vault, secure login, and token wallet - everything you need to manage your digital assets.",
+    "box1text": "Sparrow equips you with a vault, secure login, and token wallet - everything you need to manage your digital assets.",
     "box2text": "Sparrow provides the simplest yet most secure way to connect to blockchain-based applications. Ensuring you are always in control when interacting on the new decentralized web."
   }
 }

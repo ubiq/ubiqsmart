@@ -5,8 +5,8 @@
   "get": "Obtener {0}",
   "home": {
     "title": "Bienvenido a ubiq",
-    "desc": "Ubiq es una cadena de bloques de prueba de trabajo administrada por la comunidad y una plataforma de contrato inteligente que impulsa aplicaciones descentralizadas, tokens, NFT y mucho más.",
-    "github": "Github",
+    "desc": "Ubiq es una cadena de bloques y una plataforma de contrato inteligente que impulsa aplicaciones, tokens, NFT y mucho más completamente descentralizados.",
+    "discord": "únete a la Discord",
     "getStarted": "Empezar",
     "readMore": "Lee mas"
   },
@@ -16,6 +16,8 @@
     "explore": "Explorar",
     "blog": "Blog",
     "gitbook": "GitBook",
+    "twitter": "Twitter",
+    "discord": "Discord",
     "stats": "Estadísticas de red",
     "explorer": "Explorador de bloques",
     "shinobi": "Shinobi"
