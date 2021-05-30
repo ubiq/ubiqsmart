@@ -15,7 +15,7 @@ UBQ is secured by proven cryptography, thereby keeping your wallet, UBQ and all 
 
 ## Peer-to-Peer Transactions
 
-You can send UBQ to anyone - anytime, anywhere. There is no need for third-parties or intermediaries.
+You can send UBQ to anyone - anytime, anywhere. There is no need for third parties or intermediaries.
 
 ## Fully Decentralized
 
@@ -23,17 +23,17 @@ UBQ is completely decentralized, meaning there is no centralized company or bank
 
 ## Open To All
 
-All you need is an internet connection and a wallet to accept UBQ. You don't need access to a bank account to accept payments. If you have spare GPUs (2GB+) you can mine UBQ without the need for permission.
+All you need is an internet connection and a wallet to accept UBQ. You don't need access to a bank account to accept payments. If you have spare GPUs (2GB+), you can mine UBQ without the need for permission.
 
 ## Available In Virtually Any Amount
 
-UBQ is divisible up to 18 decimal places, so you could buy as little as 0.000000000000000001 UBQ.
+UBQ is divisible by up to 18 decimal places, so you could buy as little as 0.000000000000000001 UBQ.
 
-## UBQ fuels and secures Ubiq
+## UBQ Fuels and Secures Ubiq
 
-UBQ is the cornerstone of Ubiq. When you send UBQ, Ubiq-based tokens or use a Ubiq application, you pay a small fee in UBQ. This fee incentivizes miners to process and verify your transaction. This fee, along with newly-issued UBQ in the form of block rewards, is how miners are contracted by the protocol to secure the network. This ensures Ubiq is free from centralized control. 
+UBQ is the cornerstone of Ubiq. When you send UBQ, Ubiq-based tokens, or use a Ubiq application, you pay a small fee in UBQ. This fee incentivizes miners to process and verify your transaction. This, along with newly-issued UBQ in the form of block rewards, is how miners are contracted by the protocol to secure the network, ensuring Ubiq is free from centralized control. 
 
-## UBQ underpins the Ubiq financial system
+## UBQ Underpins the Ubiq Financial System
 
 The Ubiq community is building an entire peer-to-peer financial system that is accessible to everyone.
 You can use UBQ as collateral to generate new tokens on Ubiq.

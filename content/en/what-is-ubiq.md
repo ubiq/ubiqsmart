@@ -11,7 +11,7 @@ Built upon an improved version of the Ethereum Codebase, Ubiq offers an enterpri
 
 ## Efficient & Reliable
 
-An [independent performance benchmark analysis](https://www.whiteblock.io/library/ubiq-report.pdf) determined that given the same hashrate, Ubiq has **90% fewer uncles** than Ethereum, leading to both greater chain security  and  network reliability. In addition, **Ubiq's transactional throughput per second is 2x that of Ethereum's at a 40 million block gas limit**.
+An [independent performance benchmark analysis](https://www.whiteblock.io/library/ubiq-report.pdf) determined that given the same hashrate, Ubiq has 90% fewer uncles than Ethereum, leading to both greater chain security  and  network reliability. In addition, Ubiq's transactional throughput per second is 2x that of Ethereum's at a 40 million block gas limit.
 
 ## Fair Launch
 
@@ -20,12 +20,12 @@ Ubiq's distribution mechanism and lack of ICO funding also insulates the network
 
 ## Open-Source Collaboration
 
-All of Ubiq's code is open-source and available for the community. Developers can collaborate and build upon existing code.Ubiq is entirely community-driven, from development to marketing and open for anyone to participate. All development on Ubiq thus far has entirely been on a voluntary-basis.
+All of Ubiq's code is open-source and available to the community. Developers can collaborate and build upon existing code. Ubiq is entirely community-driven, from development to marketing, and open for anyone to participate. All development on Ubiq thus far has entirely been on a voluntary basis.
 
 ## Stable Monetary Policy
 
-Ubiq's monetary policy was hard-coded at its genesis, meaning fewer surprises for the future. A predictable inflationary control system with longevity in mind helps strike a balance between simulating scarcity and incentivizing miners to secure the network. Much like Bitcoin, Ubiq’s monetary policy has not been altered since its launch in 2017.
+Ubiq's monetary policy was hard-coded at its genesis, meaning fewer surprises in the future. A predictable inflationary control system with longevity in mind helps strike a balance between simulating scarcity and incentivizing miners to secure the network. Ubiq’s monetary policy has not been altered since its launch in 2017.
 
-## Community Governed
+## Community-Governed
 
 Just as Ubiq is permissionless open-source software, Ubiq's governance system, Escher, democratizes the platform's development by giving users the ability to cast on-chain votes. Proposal decisions are entrusted to the community at-large through transparent, verifiable, and immutable public voting.
