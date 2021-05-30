@@ -18,21 +18,22 @@
             x-large
             min-width="200px"
             class="mb-2"
+            style="text-transform: none"
           >
             <v-icon class="mr-1">mdi-gauge</v-icon>
             {{ $t('home.getStarted') }}
           </v-btn>
           <v-btn
             color="#212121"
-            style="color: #fff"
-            :href="params.github"
+            style="color: #fff; text-transform: none"
+            href="https://discord.gg/ubiq"
             target="_blank"
             x-large
             min-width="200px"
             class="mb-2"
           >
-            <v-icon class="mr-1">mdi-github</v-icon>
-            {{ $t('home.github') }}
+            <v-icon class="mr-1">mdi-discord</v-icon>
+            {{ $t('home.discord') }}
           </v-btn>
         </span>
       </v-row>
