@@ -1,5 +1,5 @@
 <template>
-  <v-card flat outlined tile class="mt-2 mb-6">
+  <v-card flat outlined tile class="mt-4 mb-6">
     <div class="d-flex flex-no-wrap justify-space-between">
       <v-img
         :src="'/markets/' + marketId + '.png'"
@@ -9,7 +9,9 @@
         class="my-6 ml-6"
       ></v-img>
       <v-container>
-        <v-card-text>{{ $t('markets.' + marketId) }}</v-card-text>
+        <v-card-text>
+          <slot></slot>
+        </v-card-text>
       </v-container>
     </div>
     <v-card-actions class="bt-1 pa-0">

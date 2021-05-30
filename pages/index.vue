@@ -39,7 +39,14 @@
       <v-row no-gutters align="center" justify="center" class="px-1 mt-12">
         <v-window v-model="onboarding" reverse continuous show-arrows-on-hover>
           <v-window-item v-for="(slide, index) of articles" :key="index">
-            <v-card align="left" width="480px" class="mx-auto" flat tile>
+            <v-card
+              align="left"
+              width="480px"
+              class="mx-auto"
+              flat
+              tile
+              :outlined="theme === 'light'"
+            >
               <v-img height="200px" :src="slide.image" />
               <v-card-title>{{ slide.title }}</v-card-title>
               <v-card-subtitle
