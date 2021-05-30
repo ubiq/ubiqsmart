@@ -5,7 +5,12 @@ const { reactiveProp } = mixins
 export default {
   extends: Bar,
   mixins: [reactiveProp],
-  props: ['options'],
+  props: {
+    options: {
+      type: Object,
+      required: true,
+    },
+  },
   mounted() {
     // Overwriting base render method with actual data.
     this.renderChart(this.chartData, this.options)

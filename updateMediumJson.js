@@ -1,12 +1,13 @@
 const Parser = require('rss-parser')
 const jsonfile = require('jsonfile')
 const parser = new Parser()
+const consola = require('consola')
 
 const file = 'assets/medium.json'
 
 const update = async () => {
   const feed = await parser.parseURL('https://medium.com/feed/the-ubiq-report')
-  console.log(feed.title)
+  consola.log(feed.title)
 
   // extract img src from content:encoded and set as item.image
   // why you make me do this? -_-
@@ -21,9 +22,9 @@ const update = async () => {
   jsonfile
     .writeFile(file, feed.items, { spaces: 2 })
     .then((res) => {
-      console.log('Write complete')
+      consola.log('Write complete')
     })
-    .catch((error) => console.error(error))
+    .catch((error) => consola.error(error))
 }
 
 update()

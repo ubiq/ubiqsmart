@@ -123,13 +123,5 @@ export default {
       return this.$store.state.browser
     },
   },
-  created() {
-    this.test()
-  },
-  methods: {
-    test() {
-      console.log(window.ethereum)
-    },
-  },
 }
 </script>

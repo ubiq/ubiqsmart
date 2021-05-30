@@ -1,4 +1,5 @@
 import axios from 'axios'
+import consola from 'consola'
 
 const FEED = 'https://api.ubiqscan.io/v3/status'
 
@@ -20,7 +21,6 @@ export const actions = {
   async set_dag({ commit }) {
     try {
       const status = await axios.get(FEED)
-      console.log(status)
       const block = status.data.latestBlock.number
       const epoch = Math.floor(block / 30000)
       const size = (1000 + epoch * 8) / 1000
@@ -30,7 +30,7 @@ export const actions = {
         size,
       })
     } catch (e) {
-      console.log(e)
+      consola.log(e)
     }
   },
 }
