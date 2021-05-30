@@ -4,10 +4,10 @@
       <template #default>
         <thead>
           <tr>
-            <th class="text-left">Year</th>
-            <th class="text-left">Inflation</th>
-            <th class="text-left">Inflation Rate</th>
-            <th class="text-left">Block Reward</th>
+            <th class="text-left">{{ $t('monetaryPolicy.year') }}</th>
+            <th class="text-left">{{ $t('monetaryPolicy.inflation') }}</th>
+            <th class="text-left">{{ $t('monetaryPolicy.inflationRate') }}</th>
+            <th class="text-left">{{ $t('monetaryPolicy.blockReward') }}</th>
           </tr>
         </thead>
         <tbody>

@@ -61,7 +61,7 @@
                 </v-btn>
                 <v-spacer />
                 <v-btn text flat tile ripple :href="slide.link" target="_blank">
-                  Read more
+                  {{ $t('home.readMore') }}
                 </v-btn>
                 <v-spacer />
                 <v-btn text @click="next">

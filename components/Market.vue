@@ -22,7 +22,7 @@
         tile
         color="primary"
         target="_blank"
-        >{{ $t('markets.goTo') }} {{ markets[marketId].name }}</v-btn
+        >{{ $t('goTo', [markets[marketId].name]) }}</v-btn
       >
     </v-card-actions>
   </v-card>

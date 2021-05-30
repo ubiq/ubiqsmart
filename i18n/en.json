@@ -1,15 +1,39 @@
 {
   "title": "ubiq",
-  "subtitle": "blockchain",
+  "helpTranslate": "Help Translate",
+  "goTo": "Go to {0}",
+  "get": "Get {0}",
   "home": {
     "title": "Welcome to Ubiq",
     "desc": "Ubiq is a community-run Proof-of-Work blockchain and smart contract platform powering decentralized applications, tokens, NFTs and much more.",
     "github": "Github",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "readMore": "Read more"
   },
   "menu": {
     "getStarted": "Get Started",
-    "explore": "Explore"
+    "more": "More",
+    "explore": "Explore",
+    "blog": "Blog",
+    "gitbook": "GitBook",
+    "stats": "Network Stats",
+    "explorer": "Block Explorer",
+    "shinobi": "Shinobi"
+  },
+  "footer": {
+    "height": {
+      "title": "Block height - {0}",
+      "subtitle": "Current height of the ubiq blockchain"
+    },
+    "epoch": {
+      "title": "Epoch - {0} GB",
+      "subtitle": "Current epoch"
+    },
+    "dag": {
+      "size": "{0} GB",
+      "title": "DAG Size - {0} GB",
+      "subtitle": "GPU memory required for mining"
+    }
   },
   "toc": "Page contents",
   "slug": {
@@ -19,23 +43,19 @@
     "title": "Search",
     "noResults": "No search results..."
   },
-  "helpTranslate": "Help Translate",
-  "wallets": {
-    "pyrus": {
-      "button": "Go to Pyrus"
-    },
-    "trezor": {
-      "button": "Get Trezor"
-    },
-    "ledger": {
-      "button": "Get Ledger"
-    },
-    "gubiq": {
-      "button": "Get Gubiq"
-    },
-    "fusion": {
-      "button": "Get Fusion"
-    }
+  "mining": {
+    "size": "Size of DAG (GB)",
+    "years": "Years",
+    "height": "Block height",
+    "epoch": "Epoch",
+    "sizeShort": "DAG size",
+    "gb": "GB"
+  },
+  "monetaryPolicy": {
+    "year": "Year",
+    "inflation": "Inflation",
+    "inflationRate": "Inflation Rate",
+    "blockReward": "Block Reward"
   },
   "sparrow": {
     "title": "Install Sparrow",
@@ -48,12 +68,5 @@
     "box2title": "Explore blockchain apps",
     "box1text": "key sparrow equips you with a vault, secure login, and token wallet - everything you need to manage your digital assets.",
     "box2text": "Sparrow provides the simplest yet most secure way to connect to blockchain-based applications. Ensuring you are always in control when interacting on the new decentralized web."
-  },
-  "dagGrowth": {
-    "size": "Size of DAG (GB)",
-    "years": "Years"
-  },
-  "markets": {
-    "goTo": "Go to"
   }
 }

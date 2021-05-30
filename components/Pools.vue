@@ -2,12 +2,6 @@
   <v-card flat tile outlined>
     <v-simple-table striped>
       <template #default>
-        <thead>
-          <tr>
-            <th class="text-left">Name</th>
-            <th class="text-left">Url</th>
-          </tr>
-        </thead>
         <tbody>
           <tr v-for="item in shuffle()" :key="item.name">
             <td>{{ item.name }}</td>

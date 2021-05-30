@@ -35,7 +35,7 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      <v-btn icon :href="params.github" target="_blank">
+      <v-btn icon href="https://github.com/ubiq" target="_blank">
         <v-icon>mdi-github</v-icon>
       </v-btn>
     </v-app-bar>
@@ -61,13 +61,13 @@
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-subheader class="ml-4">More</v-subheader>
+        <v-subheader class="ml-4">{{ $t('menu.more') }}</v-subheader>
         <v-list-item link href="https://blog.ubiqsmart.com" target="_blank">
           <v-list-item-avatar>
             <v-icon>mdi-post</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Blog</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.blog') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item link href="https://odin.ubiqsmart.com" target="_blank">
@@ -75,7 +75,7 @@
             <v-icon>mdi-book-open-variant</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>GitBook</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.gitbook') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-subheader class="ml-4">{{ $t('menu.explore') }}</v-subheader>
@@ -84,7 +84,7 @@
             <v-icon>mdi-gauge</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Network stats</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.stats') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item link href="https://ubiqscan.io" target="_blank">
@@ -92,7 +92,7 @@
             <v-icon>mdi-cube-scan</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Block Explorer</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.explorer') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item
@@ -104,7 +104,7 @@
             <v-icon>mdi-ninja</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Shinobi</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.shinobi') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -174,12 +174,10 @@
         ripple
         href="https://github.com/ubiq/go-ubiq/releases"
         target="_blank"
-        style="text-transform: none"
-        v-bind="attrs"
-        v-on="on"
+        style="text-transform: none; color: #fff"
       >
         <v-icon small class="mx-1">mdi-source-repository</v-icon>
-        <strong>v5.0.0 - Taurus</strong>
+        <strong>{{ gubiq }}</strong>
       </v-btn>
       <v-spacer />
       <v-tooltip top>
@@ -189,6 +187,7 @@
             tile
             text
             class="bg-0 py-0 px-2"
+            style="color: #fff"
             height="22px"
             v-bind="attrs"
             v-on="on"
@@ -202,12 +201,12 @@
             <v-icon large>mdi-cube-scan</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title
-              >Block height - {{ nf.format(status.block) }}</v-list-item-title
-            >
-            <v-list-item-subtitle
-              >Current height of the ubiq blockchain</v-list-item-subtitle
-            >
+            <v-list-item-title>{{
+              $t('footer.height.title', [nf.format(status.block)])
+            }}</v-list-item-title>
+            <v-list-item-subtitle>{{
+              $t('footer.height.subtitle')
+            }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-tooltip>
@@ -218,6 +217,7 @@
             tile
             text
             class="bg-0 py-0 px-2"
+            style="color: #fff"
             height="22px"
             v-bind="attrs"
             v-on="on"
@@ -231,8 +231,12 @@
             <v-icon large>mdi-web-clock</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title>Epoch - {{ status.epoch }}</v-list-item-title>
-            <v-list-item-subtitle>Current epoch</v-list-item-subtitle>
+            <v-list-item-title>{{
+              $t('footer.epoch.title', [status.epoch])
+            }}</v-list-item-title>
+            <v-list-item-subtitle>{{
+              $t('footer.epoch.subtitle')
+            }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-tooltip>
@@ -243,12 +247,13 @@
             tile
             text
             class="bg-0 py-0 px-2"
+            style="color: #fff"
             height="22px"
             v-bind="attrs"
             v-on="on"
           >
             <v-icon small class="mx-1">mdi-memory</v-icon>
-            <strong>{{ status.size }} GB</strong>
+            <strong>{{ $t('footer.dag.size', [status.size]) }}</strong>
           </v-btn>
         </template>
         <v-list-item>
@@ -256,12 +261,12 @@
             <v-icon large>mdi-memory</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title
-              >DAG size: {{ status.size }} GB</v-list-item-title
-            >
-            <v-list-item-subtitle
-              >Memory required for mining</v-list-item-subtitle
-            >
+            <v-list-item-title>{{
+              $t('footer.epoch.title', [status.size])
+            }}</v-list-item-title>
+            <v-list-item-subtitle>{{
+              $t('footer.epoch.subtitle')
+            }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
       </v-tooltip>
@@ -356,6 +361,9 @@ export default {
     },
     status() {
       return this.$store.state.dag
+    },
+    gubiq() {
+      return this.$store.state.gubiq
     },
   },
   mounted() {

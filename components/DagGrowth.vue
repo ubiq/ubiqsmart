@@ -44,7 +44,7 @@ export default {
               },
               scaleLabel: {
                 display: true,
-                labelString: this.$t('dagGrowth.size'),
+                labelString: this.$t('mining.size'),
                 fontColor: '#ffffff',
               },
             },
@@ -56,7 +56,7 @@ export default {
               },
               scaleLabel: {
                 display: true,
-                labelString: this.$t('dagGrowth.years'),
+                labelString: this.$t('mining.years'),
                 fontColor: '#ffffff',
               },
             },

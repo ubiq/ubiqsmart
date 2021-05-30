@@ -79,14 +79,10 @@
       </v-col>
       <v-col cols="12" md="6" sm="12">
         <v-card outlined tile style="min-height: 205px">
-          <v-card-title style="display: block"
-            >Explore blockchain apps</v-card-title
-          >
-          <v-card-text
-            >Sparrow provides the simplest yet most secure way to connect to
-            blockchain-based applications. Ensuring you are always in control
-            when interacting on the new decentralized web.</v-card-text
-          >
+          <v-card-title style="display: block">{{
+            $t('sparrow.box2title')
+          }}</v-card-title>
+          <v-card-text>{{ $t('sparrow.box2text') }}</v-card-text>
         </v-card>
       </v-col>
     </v-row>

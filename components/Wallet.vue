@@ -31,7 +31,7 @@
         width="100%"
         text
       >
-        {{ $t('wallets.' + walletId + '.button') }}
+        {{ $t('get', [uppercase(walletId)]) }}
       </v-btn>
       <v-btn
         v-else
@@ -41,7 +41,7 @@
         color="primary"
         width="100%"
       >
-        {{ $t('wallets.' + walletId + '.button') }}
+        {{ $t(walletId === 'pyrus' ? 'goTo' : 'get', [uppercase(walletId)]) }}
       </v-btn>
     </v-card-actions>
   </v-card>
@@ -79,6 +79,11 @@ export default {
     },
     isMobile() {
       return this.$store.state.mobile
+    },
+  },
+  methods: {
+    uppercase(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1)
     },
   },
 }
