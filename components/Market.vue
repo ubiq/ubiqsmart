@@ -2,7 +2,7 @@
   <v-card flat outlined tile class="mt-4 mb-6">
     <div class="d-flex flex-no-wrap justify-space-between">
       <v-img
-        :src="'/markets/' + marketId + '.png'"
+        :src="'markets/' + marketId + '.png'"
         contain
         height="128px"
         width="128px"
