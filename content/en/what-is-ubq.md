@@ -1,50 +1,48 @@
 ---
 title: What is UBQ?
-description: UBQ is the native cryptocurrency on the Ubiq network. It is scarce digital money that you can use on the internet – similar to Bitcoin and Ethereum. If you’re new to crypto, here's how UBQ is different from traditional money.
+description: UBQ is the Ubiq network’s native cryptocurrency. Like BTC or ETH, it is scarce digital money.
 icon: mdi-cash
 createdAt: 2021-01-01T00:00:02.966Z
 ---
 
-## It's really yours
+## Truly Yours
 
-With UBQ, you can be your own bank. You control your own funds with your wallet as proof of ownership. No third party intermediaries required.
+You can be your own bank with UBQ. You’re the only one in control of your funds. All you need is a wallet. Nothing else.
 
-## Secured by cryptography
+## Cryptography Keeps Your UBQ Secure
 
-Internet money may be new but it's secured by proven cryptography. This protects your wallet, your UBQ, and your transactions. 
+UBQ is secured by proven cryptography, thereby keeping your wallet, UBQ and all transactions completely safe.
 
-## Peer-to-peer payments
+## Peer-to-Peer Transactions
 
-You can send your UBQ without any intermediary service like a bank. It's like handing cash over in-person, but you can do it securely with anyone, anywhere, anytime.
+You can send UBQ to anyone - anytime, anywhere. There is no need for third-parties or intermediaries.
 
-## No centralized control
+## Fully Decentralized
 
-UBQ is decentralized and global. There's no company or bank that can decide to print more UBQ, or change the terms of use. UBQ has had a strict monetary policy hard-coded since inception.
+UBQ is completely decentralized, meaning there is no centralized company or bank in control. UBQ’s strict monetary policy was hard-coded at inception. However, improvement proposals can be made via Ubiq’s Escher governance system.
 
-## Open to anyone
+## Open To All
 
-You only need an internet connection and a wallet to accept UBQ. You don't need access to a bank account to accept payments. If you have spare GPUs (2GB+) you can mine UBQ without anyones permission.
+All you need is an internet connection and a wallet to accept UBQ. You don't need access to a bank account to accept payments. If you have spare GPUs (2GB+) you can mine UBQ without the need for permission.
 
-## Available in flexible amounts
+## Available In Virtually Any Amount
 
-UBQ is divisible up to 18 decimal places so you don't have to buy 1 whole UBQ. You can buy fractions at a time – as little as 0.000000000000000001 UBQ if you want.
+UBQ is divisible up to 18 decimal places, so you could buy as little as 0.000000000000000001 UBQ.
 
 ## UBQ fuels and secures Ubiq
 
-UBQ is the lifeblood of Ubiq. When you send UBQ, tokens or use a Ubiq application, you'll pay a small fee in UBQ to use the Ubiq network. This fee is an incentive for a miner to process and verify what you're trying to do. Miners are like the record-keepers of Ubiq – they check and prove that no one is cheating. Miners who do this work are also rewarded with small amounts of newly-issued UBQ.
-The work miners do keeps Ubiq secure and free of centralized control. In other words, UBQ powers Ubiq.
+UBQ is the cornerstone of Ubiq. When you send UBQ, Ubiq-based tokens or use a Ubiq application, you pay a small fee in UBQ. This fee incentivizes miners to process and verify your transaction. This fee, along with newly-issued UBQ in the form of block rewards, is how miners are contracted by the protocol to secure the network. This ensures Ubiq is free from centralized control. 
 
 ## UBQ underpins the Ubiq financial system
 
-Not satisfied with payments, the Ubiq community is building a whole financial system that's peer-to-peer and accessible to everyone.
-You can use UBQ as collateral to generate entirely different cryptocurrency tokens on Ubiq.
+The Ubiq community is building an entire peer-to-peer financial system that is accessible to everyone.
+You can use UBQ as collateral to generate new tokens on Ubiq.
 
-## Uses for UBQ grow every day
+## Using UBQ Today and Tomorrow
 
-Because Ubiq is programmable, developers can shape UBQ in countless ways.
-Back in 2017, all you could do was send UBQ from one Ubiq account to another. Here are just some of things you can do today. 
+Because Ubiq is programmable, developers can help shape its future in countless ways. Here are just some of things you can do today.
 
 * [Shinobi](https://shinobi-info.ubiq.ninja) - decentralized exchange protocol
-* [Enmaku](https://ubiq.enamaku.io) - decentralized privacy protocol 
+* [Enmaku](https://ubiq.enamaku.io) - decentralized privacy protocol
 * [Poster Shop](https://poster.ubiqsmart.com/) - physically redeemable NFTs
 * [Liquidity Mining](https://tge1.ubiqsmart.com/) - provide liquidity to mine new Ubiq backed tokens
