@@ -42,7 +42,9 @@
     <resizable-drawer id="navigation" side="left">
       <v-toolbar>
         <v-spacer />
-        <img :src="params['logo-full'][theme]" height="36" />
+        <nuxt-link to="/">
+          <img :src="params['logo-full'][theme]" height="38" class="mt-1" />
+        </nuxt-link>
         <v-spacer />
       </v-toolbar>
       <v-list dense>
