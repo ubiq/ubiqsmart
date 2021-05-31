@@ -167,7 +167,7 @@
           >
         </v-col>
       </v-app-bar>
-      <v-container class="pb-12">
+      <v-container class="pb-12 mb-12">
         <nuxt />
       </v-container>
     </v-main>
