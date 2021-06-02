@@ -43,6 +43,6 @@ You can use UBQ as collateral to generate new tokens on Ubiq.
 Because Ubiq is programmable, developers can help shape its future in countless ways. Here are just some of things you can do today.
 
 * [Shinobi](https://shinobi-info.ubiq.ninja) - decentralized exchange protocol
-* [Enmaku](https://ubiq.enamaku.io) - decentralized privacy protocol
+* [Enmaku](https://ubiq.enmaku.io) - decentralized privacy protocol
 * [Poster Shop](https://poster.ubiqsmart.com/) - physically redeemable NFTs
 * [Liquidity Mining](https://tge1.ubiqsmart.com/) - provide liquidity to mine new Ubiq backed tokens
