@@ -44,7 +44,7 @@
         justify="center"
         class="px-1 mt-12"
       >
-        <v-window v-model="onboarding" reverse continuous show-arrows-on-hover>
+        <v-window v-model="onboarding" continuous show-arrows-on-hover>
           <v-window-item v-for="(slide, index) of articles" :key="index">
             <v-card
               align="left"
@@ -106,7 +106,7 @@ export default {
       return this.$i18n.locale
     },
     articles() {
-      return this.$store.state.medium.articles.data
+      return [...this.$store.state.medium.articles].reverse()
     },
   },
   mounted() {
