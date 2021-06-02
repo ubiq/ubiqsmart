@@ -43,6 +43,6 @@ Ubiq社区正在构建一个每个人都可以访问的完整的点对点财务�
 由于Ubiq是可编程的，因此开发人员可以无数方式帮助塑造其未来。 这只是您今天可以做的一些事情。
 
 * [Shinobi](https://shinobi-info.ubiq.ninja) - 分散交换协议
-* [Enmaku](https://ubiq.enamaku.io) - 分散式隐私协议
+* [Enmaku](https://ubiq.enmaku.io) - 分散式隐私协议
 * [Poster Shop](https://poster.ubiqsmart.com/) - 可实际兑换的NFT
 * [Liquidity Mining](https://tge1.ubiqsmart.com/) - 提供流动性以开采新的Ubiq支持的代币

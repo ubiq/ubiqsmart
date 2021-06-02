@@ -43,6 +43,6 @@ Puede usar UBQ como garantía para generar nuevos tokens en Ubiq.
 Debido a que Ubiq es programable, los desarrolladores pueden ayudar a dar forma a su futuro de innumerables formas. Estas son solo algunas de las cosas que puede hacer hoy.
 
 * [Shinobi](https://shinobi-info.ubiq.ninja) - protocolo de intercambio descentralizado
-* [Enmaku](https://ubiq.enamaku.io) - protocolo de privacidad descentralizado
+* [Enmaku](https://ubiq.enmaku.io) - protocolo de privacidad descentralizado
 * [Poster Shop](https://poster.ubiqsmart.com/) - NFT físicamente redimibles
 * [Liquidity Mining](https://tge1.ubiqsmart.com/) - proporcionar liquidez para extraer nuevos tokens respaldados por Ubiq
