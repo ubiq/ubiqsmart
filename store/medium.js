@@ -31,7 +31,7 @@ export const actions = {
   async getBlogPosts({ commit }) {
     try {
       const feed = await axios.get(FEED)
-      commit('SET_ARTICLES', feed)
+      commit('SET_ARTICLES', feed.data)
     } catch (e) {
       commit('SET_ARTICLES', fallback)
     }
