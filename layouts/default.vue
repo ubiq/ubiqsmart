@@ -280,10 +280,10 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>{{
-              $t('footer.epoch.title', [status.size])
+              $t('footer.dag.title', [status.size])
             }}</v-list-item-title>
             <v-list-item-subtitle>{{
-              $t('footer.epoch.subtitle')
+              $t('footer.dag.subtitle')
             }}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
