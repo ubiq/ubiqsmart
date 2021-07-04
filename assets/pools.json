@@ -38,5 +38,9 @@
     {
         "name": "CrazyPool.org",
         "url": "https://ubq.crazypool.org/"
+    },
+    {
+        "name": "SoloPool",
+        "url": "https://ubq.solopool.org"
     }
 ]
