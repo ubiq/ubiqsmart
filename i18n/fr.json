@@ -1,0 +1,73 @@
+{
+  "title": "ubiq",
+  "helpTranslate": "Aidez à traduire",
+  "goTo": "Aller sur {0}",
+  "get": "Obtenez {0}",
+  "home": {
+    "desc": "Ubiq est une plateforme de blockchain et de contrats intelligents qui alimente des applications entièrement décentralisées, des jetons, des NFT et bien plus encore.",
+    "discord": "Rejoignez Discord",
+    "getStarted": "Commencer",
+    "readMore": "En savoir plus"
+  },
+  "menu": {
+    "getStarted": "Commencer",
+    "more": "Plus",
+    "explore": "Explorer",
+    "blog": "Blog",
+    "gitbook": "GitBook",
+    "twitter": "Twitter",
+    "discord": "Discord",
+    "stats": "Statistiques du réseau",
+    "explorer": "Explorateur de Block",
+    "shinobi": "Shinobi"
+  },
+  "footer": {
+    "height": {
+      "title": "Hauteur du bloc - {0}",
+      "subtitle": "Hauteur actuelle de la blockchain ubiq"
+    },
+    "epoch": {
+      "title": "Époque - {0} GB",
+      "subtitle": "Époque actuelle"
+    },
+    "dag": {
+      "size": "{0} GB",
+      "title": "Taille de la DAG - {0} GB",
+      "subtitle": "Mémoire GPU requise pour le minage"
+    }
+  },
+  "toc": "Sommaire",
+  "slug": {
+    "fallback": "No {0} version available. Falling back to {1}."
+  },
+  "search": {
+    "title": "Rechercher",
+    "noResults": "Aucun résultat..."
+  },
+  "mining": {
+    "size": "Taille de la DAG (GB)",
+    "years": "Année",
+    "height": "Hauteur du bloc",
+    "epoch": "Époque",
+    "sizeShort": "DAG",
+    "gb": "GB"
+  },
+  "monetaryPolicy": {
+    "year": "Année",
+    "inflation": "Inflation",
+    "inflationRate": "Taux d'inflation",
+    "blockReward": "Récompense par bloc"
+  },
+  "sparrow": {
+    "title": "Installer Sparrow",
+    "conflict": "N'installez pas Sparrow dans le même navigateur que MetaMask, un conflit pourrait survenir.",
+    "get": "Obtenir Sparrow",
+    "for": "pour",
+    "installed": "Sparrow installé",
+    "available": "aussi disponible sur :",
+    "box1title": "Envoyer des jetons à l'échelle mondiale",
+    "box2title": "Explorer les applications de la blockchain",
+    "box1text": "Sparrow vous équipe d'un coffre-fort, d'une connexion sécurisée et d'un portefeuille de jetons - tout ce dont vous avez besoin pour gérer vos actifs numériques",
+    "box2text": "Sparrow fournit le moyen le plus simple et le plus sûr de se connecter aux applications basées sur la blockchain. Vous êtes ainsi assuré de toujours garder le contrôle lorsque vous interagissez sur le nouveau web décentralisé."
+  }
+}
