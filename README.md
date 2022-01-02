@@ -52,3 +52,7 @@ The client side code pulls this json directly from github master branch. A new b
 ## Deployment
 
 This repo is set up to auto deploy to github pages, if deploying elsewhere (e.g prod server) update router.base in params/config.json. If running at root level of a domain e.g ubiqsmart.com, set router base to "/", build/generate and deploy.
+
+# chart.js & vue-chartjs
+
+vue-chartjs does not support chart.js v3. chart.js v2.9.4 or a greater 2.x release should be used instead.
