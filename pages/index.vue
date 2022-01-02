@@ -85,7 +85,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'HomePage',
   data() {
     return {
       onboarding: 0,

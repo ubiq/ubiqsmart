@@ -461,7 +461,7 @@
 
 <script>
 export default {
-  name: 'Uip1',
+  name: 'SparrowPrivacy',
 }
 </script>
 

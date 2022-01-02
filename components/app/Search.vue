@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: 'Search',
+  name: 'SearchBar',
   props: {
     mobile: {
       type: Boolean,

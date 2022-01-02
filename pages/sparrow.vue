@@ -92,7 +92,7 @@
 
 <script>
 export default {
-  name: 'Sparrow',
+  name: 'SparrowInfo',
   data() {
     return {
       browsers: {

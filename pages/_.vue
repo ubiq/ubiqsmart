@@ -111,7 +111,7 @@ import DagGrowthChart from '~/components/DagGrowth'
 import DagSize from '~/components/DagSize'
 
 export default {
-  name: 'Slug',
+  name: 'SlugCatcher',
   components: {
     ResizableDrawer,
     WalletCard,

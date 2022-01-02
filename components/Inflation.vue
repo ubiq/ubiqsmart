@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'Inflation',
+  name: 'InflationTable',
   data() {
     return {
       items: [

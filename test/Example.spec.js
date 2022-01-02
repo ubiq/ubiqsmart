@@ -7,9 +7,8 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 
 // components
-import ExampleComponent from '@/components/Example.vue'
-
 import { mount, createLocalVue } from '@vue/test-utils'
+import ExampleComponent from '@/components/Example.vue'
 
 Vue.use(Vuetify)
 

@@ -19,7 +19,7 @@
 import Pools from '~/assets/pools.json'
 
 export default {
-  name: 'Pools',
+  name: 'PoolsTable',
   methods: {
     // shuffle items in an array
     shuffle() {
