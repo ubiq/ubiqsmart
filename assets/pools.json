@@ -42,5 +42,9 @@
     {
         "name": "SoloPool",
         "url": "https://ubq.solopool.org"
+    },
+    {
+        "name": "Kryptex",
+        "url": "https://kryptex.org"
     }
 ]
