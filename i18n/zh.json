@@ -19,7 +19,9 @@
     "discord": "Discord",
     "stats": "网络统计",
     "explorer": "区块浏览器",
-    "shinobi": "Shinobi"
+    "shinobi": "Shinobi",
+    "enmaku": "Enmaku",
+    "redshift": "Redshift"
   },
   "footer": {
     "height": {

@@ -19,7 +19,9 @@
     "discord": "Discord",
     "stats": "Статистика сети",
     "explorer": "Блок-обозреватель",
-    "shinobi": "Shinobi"
+    "shinobi": "Shinobi",
+    "enmaku": "Enmaku",
+    "redshift": "Redshift"
   },
   "footer": {
     "height": {

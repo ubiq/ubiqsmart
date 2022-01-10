@@ -24,7 +24,7 @@ All of Ubiq's code is open-source and available to the community. Developers can
 
 ## Stable Monetary Policy
 
-Ubiq's monetary policy was hard-coded at its genesis, meaning fewer surprises in the future. A predictable inflationary control system with longevity in mind helps strike a balance between simulating scarcity and incentivizing miners to secure the network. Ubiq’s monetary policy has not been altered since its launch in 2017.
+Ubiq's strict monetary policy means fewer surprises in the future. A predictable inflationary control system with longevity in mind helps strike a balance between simulating scarcity and incentivizing miners to secure the network.
 
 ## Community-Governed
 

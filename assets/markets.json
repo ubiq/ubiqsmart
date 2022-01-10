@@ -3,10 +3,6 @@
     "name": "Bittrex",
     "url": "https://bittrex.com/Market/Index?MarketName=USDT-UBQ"
   },
-  "bitz":  {
-    "name": "BitZ",
-    "url": "https://www.bitz.ai/exchange/ubq_usdt"
-  },
   "dove": {
     "name": "Dove Wallet",
     "url": "https://dovewallet.com/en/trade/spot/ubq-usdt"
@@ -14,5 +10,9 @@
   "shinobi": {
     "name": "Shinobi",
     "url": "https://shinobi-info.ubiq.ninja"
+  },
+  "quickswap": {
+    "name": "Quickswap",
+    "url": "https://info.quickswap.exchange/#/token/0xb1c5c9b97b35592777091cd34ffff141ae866abd"
   }
 }

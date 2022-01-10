@@ -14,14 +14,14 @@ Ubiq is not responsible for the content of third-party sites. Always check secur
 Shinobi is a protocol for creating liquidity and trading ERC-20 tokens on Ubiq. It eliminates the need for trusted intermediaries and unnecessary forms of rent extraction, allowing for fast and efficient trading. Decentralization, censorship resistance and security are valued above all else. Shinobi is open-source software, based on uniswapV2, licensed under GPL.
 </market-card>
 
+## Quickswap
+<market-card market-id="quickswap">
+QuickSwap is the Next-gen Layer 2 Polygon DEX. Trade at lightning-fast speeds with near-zero gas fees. Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform.
+</market-card>
+
 ## Bittrex
 <market-card market-id="bittrex">
 Bittrex is a leading crypto exchange that is based in the US. It maintains strong regulatory compliance, security and international support. UBQ is available on both Bittrex US and Bittrex Global, with BTC and USDT markets for trading.
-</market-card>
-
-## BitZ
-<market-card market-id="bitz">
-Established in Hong Kong in 2016, BitZ is a well-known digital asset trading platform providing professional digital asset and OTC trading. UBQ is available via a USDT market.
 </market-card>
 
 ## Dove Wallet

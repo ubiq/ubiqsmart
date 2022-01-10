@@ -7,7 +7,7 @@ createdAt: 2021-01-01T00:00:03.966Z
 
 ## Recompensas en bloque
 
-UBQ se emite a través de una prueba de trabajo para los mineros en forma de recompensas en bloque. La política monetaria fue diseñada para mantener la inflación baja y predecible al tiempo que garantiza que los mineros siempre sean recompensados, manteniendo la red segura y evitando que surja un mercado de mineros de pago único. Logramos esto reduciendo la recompensa de bloque que reciben los mineros en 1 UBQ cada año, hasta que la recompensa alcance 1 UBQ por bloque, momento en el que la recompensa permanece en 1 UBQ para siempre.
+UBQ se emite a través de la prueba de trabajo a los mineros en forma de recompensas en bloque. La política monetaria fue diseñada para mantener la inflación baja y predecible, al tiempo que garantizaba que los mineros siempre serían recompensados, manteniendo la red segura y evitando que surgiera un mercado de mineros de pago. Logramos esto comenzando con una reducción a la recompensa de bloque que los mineros reciben por 1 UBQ cada año, hasta que UIP16 se activó en enero de 2022, momento en el que se estableció la recompensa, y se mantiene en 1.5 UBQ para siempre.
 
 <inflation-chart></inflation-chart>
 <inflation-table></inflation-table>
@@ -22,4 +22,8 @@ El minero de un tío bloque con una profundidad superior a 1 no recibe recompens
 
 ## Suministro máximo
 
-Ubiq no tiene un suministro máximo fijo, lo que garantiza que siempre habrá suficiente UBQ para mantener y asegurar el ecosistema. Sin embargo, la tasa de inflación disminuye cada año y seguirá haciéndolo para siempre, inalterada y predecible.
+Ubiq no tiene un suministro máximo fijo, lo que garantiza que siempre habrá suficiente UBQ para mantener y asegurar el ecosistema. Sin embargo, la tasa de inflación disminuye cada año y continuará haciéndolo para siempre, inalterada y predecible. Para contrarrestar la inflación a largo plazo, se introdujeron quemaduras de tarifas en UIP-16, incentivando el uso. Más uso en el mundo real, menos inflación.
+
+## UIP-16
+
+UIP-16 (también conocido como Orion) se activó el 9 de enero de 2022, introduciendo bloques 4 veces más rápidos y fijando el bloqueo a 1.5 UBQ por bloque.

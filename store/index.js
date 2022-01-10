@@ -2,7 +2,7 @@ import { version } from '../package.json'
 
 export const state = () => ({
   static: version, // static template version
-  gubiq: 'v5.0.0 - Taurus', // latest gubiq version. TODO(iquidus): automate this.
+  gubiq: 'v6.0.0 - Orion', // latest gubiq version. TODO(iquidus): automate this.
   mobile: false, // global isMobile?
   browser: null, // global browser / user agent
 })

@@ -46,3 +46,4 @@ Because Ubiq is programmable, developers can help shape its future in countless 
 * [Enmaku](https://ubiq.enmaku.io) - decentralized privacy protocol
 * [Poster Shop](https://poster.ubiqsmart.com/) - physically redeemable NFTs
 * [Liquidity Mining](https://tge1.ubiqsmart.com/) - provide liquidity to mine new Ubiq backed tokens
+* [Token Gallery](https://token.gallery/) - an nft marketplace that supports and showcases creative work.

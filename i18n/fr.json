@@ -19,7 +19,9 @@
     "discord": "Discord",
     "stats": "Statistiques du réseau",
     "explorer": "Explorateur de Block",
-    "shinobi": "Shinobi"
+    "shinobi": "Shinobi",
+    "enmaku": "Enmaku",
+    "redshift": "Redshift"
   },
   "footer": {
     "height": {

@@ -38,14 +38,14 @@ export default {
           {
             label: this.$t('monetaryPolicy.blockReward'),
             backgroundColor: this.$vuetify.theme.currentTheme.primary,
-            data: [8, 7, 6, 5, 4, 3, 2, 1, 1, 1, 1, 1],
+            data: [8, 7, 6, 5, 4, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5],
           },
           {
             label: this.$t('monetaryPolicy.inflationRate'),
             backgroundColor: this.$vuetify.theme.currentTheme.accent,
             data: [
-              7.29, 6.0, 4.89, 3.91, 3.04, 2.23, 1.46, 0.73, 0.72, 0.72, 0.71,
-              0.71,
+              7.29, 6.0, 4.89, 3.91, 3.04, 4.58, 4.38, 4.2, 4.03, 3.73, 3.59,
+              3.47,
             ],
           },
         ],

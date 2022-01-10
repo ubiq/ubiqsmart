@@ -7,7 +7,7 @@ createdAt: 2021-01-01T00:00:03.966Z
 
 ## Récompense de bloc
 
-UBQ est émis à l'existence par preuve de travail aux mineurs sous forme de récompenses de bloc. La politique monétaire a été conçue pour maintenir l'inflation à un niveau faible et prévisible, tout en garantissant que les mineurs seront toujours récompensés, en maintenant la sécurité du réseau et en empêchant l'émergence d'un marché de mineurs uniquement rémunérés. Nous y parvenons en réduisant la récompense par bloc que les mineurs reçoivent de 1 UBQ chaque année, jusqu'à ce que la récompense atteigne 1 UBQ par bloc, après quoi la récompense reste à 1 UBQ pour toujours.
+L'UBQ est délivré via une preuve de travail aux mineurs sous la forme de récompenses de bloc. La politique monétaire a été conçue pour maintenir l'inflation à un niveau bas et prévisible tout en veillant à ce que les mineurs soient toujours récompensés, en assurant la sécurité du réseau et en empêchant l'émergence d'un marché des mineurs à honoraires seulement. Nous y parvenons en commençant par une réduction de la récompense de bloc que les mineurs reçoivent de 1 UBQ chaque année, jusqu'à ce que uIP16 soit activé en janvier 2022, date à laquelle la récompense a été fixée, et reste à 1,5 UBQ pour toujours.
 
 <inflation-chart></inflation-chart>
 <inflation-table></inflation-table>
@@ -22,4 +22,8 @@ Le mineur d'un bloc oncle dont la profondeur est supérieure à 1 ne reçoit pas
 
 ## Approvisionnement maximal
 
-L'Ubiq n'a pas d'offre maximale fixe, ce qui garantit qu'il y aura toujours assez d'UBQ pour soutenir et sécuriser l'écosystème. Cependant, le taux d'inflation diminue chaque année et continuera à le faire pour toujours, de manière inaltérée et prévisible.
+Ubiq n'a pas d'approvisionnement maximal fixe, ce qui garantit qu'il y aura toujours suffisamment d'UBQ pour soutenir et sécuriser l'écosystème. Cependant, le taux d'inflation diminue chaque année et continuera de le faire pour toujours, inchangé et prévisible. Pour contrer l'inflation à long terme, des frais ont été introduits dans l'UIP-16, incitant à l'utilisation. Plus d'utilisation dans le monde réel, moins d'inflation.
+
+## UIP-16
+
+UIP-16 (alias Orion) a été activé le 9 janvier 2022, introduisant des blocs 4 fois plus rapides et fixant le blockreward à 1,5 UBQ par bloc.
