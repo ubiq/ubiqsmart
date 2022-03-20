@@ -23,7 +23,7 @@
     "chart.js": "2.9.4",
     "consola": "^2.15.3",
     "core-js": "^3.21.1",
-    "graphql": "^15.5.0",
+    "graphql": "^15.8.0",
     "graphql-tag": "^2.12.6",
     "nuxt": "^2.15.8",
     "nuxt-i18n": "^6.28.1",
