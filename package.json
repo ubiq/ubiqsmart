@@ -11,7 +11,8 @@
     "generate": "nuxt generate",
     "test": "jest",
     "prepare": "husky install",
-    "update-blog": "node updateMediumJson.js"
+    "update-blog": "node updateMediumJson.js",
+    "audit-fix": "yarn-audit-fix"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
@@ -51,6 +52,7 @@
     "lint-staged": "^12.1.7",
     "prettier": "^2.5.1",
     "rss-parser": "^3.12.0",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^3.0.4",
+    "yarn-audit-fix": "^9.2.1"
   }
 }
