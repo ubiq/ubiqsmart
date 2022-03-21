@@ -30,7 +30,7 @@
       "subtitle": "Altura actual de la cadena de bloques ubiq"
     },
     "epoch": {
-      "title": "Época: {0} GB",
+      "title": "Época: {0}",
       "subtitle": "Época actual"
     },
     "dag": {

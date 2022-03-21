@@ -29,7 +29,7 @@
       "subtitle": "Current height of the ubiq blockchain"
     },
     "epoch": {
-      "title": "Epoch - {0} GB",
+      "title": "Epoch - {0}",
       "subtitle": "Current epoch"
     },
     "dag": {

@@ -29,7 +29,7 @@
       "subtitle": "ubiq区块链的当前高度"
     },
     "epoch": {
-      "title": "时代-{0} GB",
+      "title": "时代-{0}",
       "subtitle": "当前时代"
     },
     "dag": {
