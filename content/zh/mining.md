@@ -11,7 +11,7 @@ Ubiq最初与Ethash一起启动，后来在UIP1通过我们的治理系统达成
 
 * [Ubqminer](https://github.com/ubiq/ubqminer/releases)
 * [PhoenixMiner](https://bitcointalk.org/index.php?topic=2647654.msg48314178#msg48314178)
-* [lolMiner] (https://github.com/Lolliedieb/lolMiner-releases/releases)
+* [lolMiner](https://github.com/Lolliedieb/lolMiner-releases/releases)
 * [SMOS](https://simplemining.net/)
 * [HiveOS](https://hiveos.farm/)
 

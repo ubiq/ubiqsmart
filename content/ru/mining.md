@@ -11,7 +11,7 @@ createdAt: 2021-01-01T00:00:04.966Z
 
 * [Ubqminer](https://github.com/ubiq/ubqminer/releases)
 * [PhoenixMiner](https://bitcointalk.org/index.php?topic=2647654.msg48314178#msg48314178)
-* [lolMiner] (https://github.com/Lolliedieb/lolMiner-releases/releases)
+* [lolMiner](https://github.com/Lolliedieb/lolMiner-releases/releases)
 * [SMOS](https://simplemining.net/)
 * [HiveOS](https://hiveos.farm/)
 
