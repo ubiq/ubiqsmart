@@ -1,39 +1,11 @@
 [
     {
-        "name": "PoolNode",
-        "url": "https://ubiq-solo.pool-node.com"
-    },
-    {
-        "name": "UBQ GOMINE.PRO",
-        "url": "https://gomine.pro/pool/ubiq"
-    },
-    {
-        "name": "AltPool",
-        "url": "http://ubq.altpool.pro"
-    },
-    {
-        "name": "ZET",
-        "url": "https://ubq.zet-tech.eu"
-    },
-    {
         "name": "UbiqPool.io",
         "url": "https://ubiqpool.io"
     },
     {
         "name": "WATTPOOL",
         "url": "https://ubiq.wattpool.net"
-    },
-    {
-        "name": "MyPool",
-        "url": "https://ubq.mypool.online"
-    },
-    {
-        "name": "MaxHash",
-        "url": "https://ubiqpool.maxhash.org"
-    },
-    {
-        "name": "Pool.Sexy",
-        "url": "https://mining-ubq.pool.sexy"
     },
     {
         "name": "CrazyPool.org",
@@ -44,7 +16,7 @@
         "url": "https://ubq.solopool.org"
     },
     {
-        "name": "Kryptex",
-        "url": "https://kryptex.org"
+        "name": "Ubiqpro",
+        "url": "https://ubiqpro.com"
     }
 ]
