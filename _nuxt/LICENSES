@@ -1,13 +1,3 @@
-/**
- * Prism: Lightweight, robust, elegant syntax highlighting
- *
- * @license MIT <https://opensource.org/licenses/MIT>
- * @author Lea Verou <https://lea.verou.me>
- * @namespace
- * @public
- */
-
-
 /*!
  * vue-client-only v2.0.0
  * (c) 2019-present egoist <0x142857@gmail.com>
@@ -1245,7 +1235,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 /*! exports provided: createItemTypeNativeListeners, createItemTypeListeners */
 
-/*! exports provided: createSimpleFunctional, directiveConfig, addOnceEventListener, passiveSupported, addPassiveEventListener, getNestedValue, deepEqual, getObjectValueByPath, getPropertyFromItem, createRange, getZIndex, escapeHTML, filterObjectOnKeys, convertToUnit, kebabCase, isObject, keyCodes, remapInternalIcon, keys, camelize, arrayDiff, upperFirst, groupItems, wrapInArray, sortItems, defaultFilter, searchItems, getSlotType, debounce, throttle, getPrefixedScopedSlots, getSlot, clamp, padEnd, chunk, humanReadableFileSize, camelizeObjectKeys, mergeDeep, fillArray, composedPath */
+/*! exports provided: createSimpleFunctional, directiveConfig, addOnceEventListener, passiveSupported, addPassiveEventListener, getNestedValue, deepEqual, getObjectValueByPath, getPropertyFromItem, createRange, getZIndex, filterObjectOnKeys, convertToUnit, kebabCase, isObject, keyCodes, remapInternalIcon, keys, camelize, arrayDiff, upperFirst, groupItems, wrapInArray, sortItems, defaultFilter, searchItems, getSlotType, debounce, throttle, getPrefixedScopedSlots, getSlot, clamp, padEnd, chunk, humanReadableFileSize, camelizeObjectKeys, mergeDeep, fillArray, composedPath */
 
 /*! exports provided: createSimpleTransition, createJavascriptTransition */
 
@@ -3203,6 +3193,18 @@ PERFORMANCE OF THIS SOFTWARE.
 
 
 /*!
+ * Chart.js v2.9.4
+ * https://www.chartjs.org
+ * (c) 2020 Chart.js Contributors
+ * Released under the MIT License
+ */
+
+//! moment.js
+
+//! moment.js locale configuration
+
+
+/*!
   * vue-router v3.5.1
   * (c) 2021 Evan You
   * @license MIT
@@ -3228,13 +3230,11 @@ PERFORMANCE OF THIS SOFTWARE.
  */
 
 
-/*!
- * Chart.js v2.9.4
- * https://www.chartjs.org
- * (c) 2020 Chart.js Contributors
- * Released under the MIT License
+/**
+ * Prism: Lightweight, robust, elegant syntax highlighting
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
  */
-
-//! moment.js
-
-//! moment.js locale configuration
