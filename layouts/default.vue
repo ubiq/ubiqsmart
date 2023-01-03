@@ -90,7 +90,7 @@
         </v-list-item>
         <v-list-item link href="https://discord.gg/ubiq" target="_blank">
           <v-list-item-avatar>
-            <v-icon>mdi-discord</v-icon>
+            <v-icon>mdi-chat</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>{{ $t('menu.discord') }}</v-list-item-title>
