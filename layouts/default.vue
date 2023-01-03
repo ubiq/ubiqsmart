@@ -125,20 +125,20 @@
             <v-list-item-title>{{ $t('menu.shinobi') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link href="https://ubiq.enmaku.io" target="_blank">
-          <v-list-item-avatar>
-            <v-icon>mdi-incognito</v-icon>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title>{{ $t('menu.enmaku') }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
         <v-list-item link href="https://redshift.ubiqsmart.com" target="_blank">
           <v-list-item-avatar>
             <v-icon>mdi-bridge</v-icon>
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title>{{ $t('menu.redshift') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link href="https://jawacamp.ubiqsmart.com" target="_blank">
+          <v-list-item-avatar>
+            <v-icon>mdi-image-multiple</v-icon>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('menu.jawacamp') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
