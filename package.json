@@ -25,7 +25,7 @@
     "core-js": "^3.27.1",
     "graphql": "^15.8.0",
     "graphql-tag": "^2.12.6",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.3.2",
     "nuxt-i18n": "^6.28.1",
     "prism-themes": "^1.9.0",
     "vue-chartjs": "^3.5.1",
