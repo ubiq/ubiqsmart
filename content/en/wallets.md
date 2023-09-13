@@ -5,7 +5,17 @@ icon: mdi-wallet
 createdAt: 2021-01-01T00:00:05.966Z
 ---
 
+## Add Ubiq To Existing Wallet
+
+Adding Ubiq to an existing Web3 wallet such as MetaMask is easy. Simply click the button below.
+
+<add-network>Add Ubiq Mainnet</add-network>
+
 ## Software
+
+<wallet-card wallet-id="metamask" href="https://metamask.io">
+MetaMask provides the simplest yet most secure way to connect to blockchain-based applications. You are always in control when interacting on the new decentralized web. MetaMask generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private.
+</wallet-card>
 
 <wallet-card wallet-id="sparrow">
 Sparrow equips you with a key vault, secure login and token wallet — everything you need to manage your digital assets. It is the recommended hot wallet for dApp interactions, providing the most simple and secure way to connect to blockchain-based applications. You can also use Sparrow to interact with hardware wallets such as Trezor and Ledger.
@@ -32,6 +42,7 @@ Gubiq (go-ubiq) is the core client and backbone of the Ubiq network. Used by dev
 </wallet-card>
 
 ## Deprecated/Legacy
+
 The following wallets are still supported and maintained, however, they will eventually be phased out and replaced with alternatives, therefore are unlikely to see any updates outside of network/protocol compatibility.
 
 <wallet-card wallet-id="fusion" href="https://github.com/ubiq/fusion/releases">

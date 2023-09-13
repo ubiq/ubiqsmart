@@ -5,6 +5,18 @@ icon: mdi-wallet
 createdAt: 2021-01-01T00:00:05.966Z
 ---
 
+## Ajouter Ubiq au portefeuille existant
+
+Ajouter Ubiq à un portefeuille Web3 existant tel que MetaMask est simple. Cliquez simplement sur le bouton ci-dessous.
+
+<add-network>Ajouter le réseau principal Ubiq</add-network>
+
+## Software
+
+<wallet-card wallet-id="metamask" href="https://metamask.io">
+MetaMask fournit le moyen le plus simple mais le plus sécurisé de se connecter aux applications basées sur la blockchain. Vous avez toujours le contrôle lorsque vous interagissez sur le nouveau Web décentralisé. MetaMask génère des mots de passe et des clés sur votre appareil, de sorte que vous seul avez accès à vos comptes et données. Vous choisissez toujours ce que vous souhaitez partager et ce que vous souhaitez garder privé.
+</wallet-card>
+
 ## Logiciel
 
 <wallet-card wallet-id="sparrow">

@@ -5,6 +5,18 @@ icon: mdi-wallet
 createdAt: 2021-01-01T00:00:05.966Z
 ---
 
+## 将 Ubiq 添加到现有钱包
+
+将 Ubiq 添加到现有的 Web3 钱包（例如 MetaMask）非常简单。只需点击下面的按钮即可。
+
+<add-network>添加 Ubiq 主网</add-network>
+
+## Software
+
+<wallet-card wallet-id="metamask" href="https://metamask.io">
+MetaMask 提供了最简单但最安全的方式来连接基于区块链的应用程序。在新的去中心化网络上进行交互时，您始终处于掌控之中。 MetaMask 在您的设备上生成密码和密钥，因此只有您才能访问您的帐户和数据。您始终可以选择分享哪些内容以及保留哪些内容。
+</wallet-card>
+
 ## 软件
 
 <wallet-card wallet-id="sparrow">
@@ -32,6 +44,7 @@ Gubiq（go-ubiq）是Ubiq网络的核心客户端和骨干网。 由开发人员
 </wallet-card>
 
 ## Deprecated/Legacy
+
 仍支持并维护以下钱包，但是它们最终将被淘汰并替换为其他钱包，因此，不太可能看到网络/协议兼容性以外的任何更新。
 
 <wallet-card wallet-id="fusion" href="https://github.com/ubiq/fusion/releases">

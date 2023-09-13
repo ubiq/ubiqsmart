@@ -5,7 +5,17 @@ icon: mdi-wallet
 createdAt: 2021-01-01T00:00:05.966Z
 ---
 
+## Agregar Ubiq a la billetera existente
+
+Agregar Ubiq a una billetera Web3 existente como MetaMask es fácil. Simplemente haga clic en el botón de abajo.
+
+<add-network>Agregar red principal de Ubiq</add-network>
+
 ## Software
+
+<wallet-card wallet-id="metamask" href="https://metamask.io">
+MetaMask proporciona la forma más sencilla pero segura de conectarse a aplicaciones basadas en blockchain. Siempre tienes el control cuando interactúas en la nueva web descentralizada. MetaMask genera contraseñas y claves en su dispositivo, por lo que solo usted tiene acceso a sus cuentas y datos. Tú siempre eliges qué compartir y qué mantener en privado.
+</wallet-card>
 
 <wallet-card wallet-id="sparrow">
 Sparrow lo equipa con una bóveda de claves, un inicio de sesión seguro y una billetera de tokens: todo lo que necesita para administrar sus activos digitales. Es la billetera activa recomendada para las interacciones de dApp, que proporciona la forma más simple y segura de conectarse a aplicaciones basadas en blockchain. También puede usar Sparrow para interactuar con carteras de hardware como Trezor y Ledger.
@@ -32,6 +42,7 @@ Gubiq (go-ubiq) es el cliente principal y la columna vertebral de la red Ubiq. U
 </wallet-card>
 
 ## Obsoleto / Legado
+
 Las siguientes billeteras aún son compatibles y se mantienen, sin embargo, eventualmente se eliminarán gradualmente y se reemplazarán con alternativas, por lo tanto, es poco probable que vean actualizaciones fuera de la compatibilidad de red / protocolo.
 
 <wallet-card wallet-id="fusion" href="https://github.com/ubiq/fusion/releases">
