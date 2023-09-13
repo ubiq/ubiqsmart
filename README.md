@@ -1,5 +1,9 @@
 # ubiqsmart
 
+## node
+
+Use node v16 (no later)
+
 ## Build Setup
 
 ```bash
@@ -22,6 +26,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Linting
 
 Linting your code before pushing is not optional. To ease this pain you can run
+
 ```
 $ yarn lint-fix
 ```
@@ -33,19 +38,20 @@ to fix any formatting issues.
 Medium is annoying to embed
 
 a) no API to fetch posts (the API is primarily for writes)
-b) rss works for reads, but does not have CORS enabled. 
+b) rss works for reads, but does not have CORS enabled.
 
-The workaround for now. 
+The workaround for now.
 
-1) Publish new post on medium.
-2) run `yarn update-blog`
+1. Publish new post on medium.
+2. run `yarn update-blog`
 
 This will pull info via rss (serverside using node [no CORS]) and save the contents to ./assets/medium.json
 
-3) push to github
-  - `git add assets/medium.json`
-  - `git commit -m 'update medium.json`
-  - `git push origin master`
+3. push to github
+
+- `git add assets/medium.json`
+- `git commit -m 'update medium.json`
+- `git push origin master`
 
 The client side code pulls this json directly from github master branch. A new build and deploy is **NOT** required.
 
